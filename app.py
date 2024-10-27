@@ -127,8 +127,10 @@ def get_hotel_recommendations(text):
     return recommendations
 
 # Streamlit UI
-st.title("Japan Hotel Finder from Natural Text")
-st.write("Enter your travel preferences, and we'll recommend the best hotels for you!")
+st.title("Hello !! May i help you")
+st.write("I will process your NATURAL LANGUAGE BASED TRIP REQUESTS and would return you a LIST OF HOTELS ACCORDING TO IT😀")
+st.write("")
+st.write("Please enter your travel preferences, and I will recommend the best hotels for you!")
 
 # user input
 user_input = st.text_area("Enter your preferences (e.g., 'I am planning a trip to Tokyo with a budget of 20,000 yen per night. I want vegan food and a hotel with Wi-Fi and a spa.'):")
